@@ -94,6 +94,7 @@
         Me.Hide()
         Me.Top = 50
         Me.Left = 75
+
     End Sub
 
     Private Sub BTNDone_Click(sender As Object, e As EventArgs) Handles BTNDone.Click

@@ -27,6 +27,7 @@
 
         inGame = True ' Variable to tell if ingame or not
 
+
     End Sub
     Public Sub compGuess()
         Console.WriteLine("compboard")
@@ -247,15 +248,21 @@
 
 
 
-
         picWidth = (Me.Width - (gap * (PictureBox.GetLength(1) + 1))) / PictureBox.GetLength(1)
 
         picHeight = picWidth
+
+
 
         makeBoard() ' make picturebox board
 
         Me.Width = 857
         Me.Height = 575
+
+        Me.MaximumSize = New Size(857, 575)
+        Me.MinimumSize = Me.MaximumSize
+        Me.ResizeRedraw = False
+
         Form2.Show()
 
     End Sub
@@ -487,6 +494,8 @@
 
 
         Next
+
+
 
     End Sub
     Private Sub inGameSub(sender As Object, e As MouseEventArgs)

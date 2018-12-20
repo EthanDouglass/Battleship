@@ -71,6 +71,10 @@
         Me.Height = 420
         Me.Top = 100
         Me.Left = 470
+
+        Me.MaximumSize = New Size(620, 420)
+        Me.MinimumSize = Me.MaximumSize
+        Me.ResizeRedraw = False
     End Sub
 
     Private Sub makeBoard()

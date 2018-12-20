@@ -162,6 +162,9 @@
         Me.Top = 100
         Me.Left = 470
 
+        Me.MaximumSize = New Size(620, 420)
+        Me.MinimumSize = Me.MaximumSize
+
     End Sub
     Private Sub Cmatrix()
 
