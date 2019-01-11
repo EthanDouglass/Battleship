@@ -82,7 +82,7 @@
 
     End Sub
 
-    Public Sub graphics()
+    Public Sub graphics() ' creating pictureboxs for game
 
         Me.BackgroundImage = Image.FromFile("Water.jpg")
         Me.BackgroundImageLayout = ImageLayout.Stretch
@@ -182,6 +182,8 @@
 
 
     Public Sub putdownship(ByVal sizeVar As Integer)
+        ' use coordinates to tell whether or not that piece can fit on the board or not
+        ' gernerate random x and y coordinate and then after first ship, make sure none of the coordinates are the same
 
         Randomize()
         For J = 0 To 1
@@ -210,7 +212,7 @@
                         End If
 
                     Next
-                    If valid = True Then ' if none of the valid = falses get triggered then make the ships
+                    If valid = True Then ' if none of the (valid = falses) get triggered then make the ships
                         For I = 0 To sizeVar - 1
                             compBoardmat(x, y + I) = 1
                             ' compBoardmat(x, y + 1) = 1
@@ -296,7 +298,7 @@
             Loop Until valid = True
         Next
 
-        'If you Then want a graphic Of comp's board, uncomment 
+        'If you want a graphic Of comp's board, uncomment 
 
         ' For I = 0 To PictureBox.GetLength(0) - 1
         'For J = 0 To PictureBox.GetLength(1) - 1
@@ -314,8 +316,7 @@
 
 
     Public Sub compBoard()
-        ' use coordinates to tell whether or not that piece can fit on the board or not
-        ' gernerate random x and y coordinate and then after first ship, make sure none of the coordinates are the same
+
 
 
         putdownship(4)
