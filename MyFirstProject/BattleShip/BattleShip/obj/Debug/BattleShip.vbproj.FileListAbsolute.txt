@@ -92,7 +92,6 @@ C:\Users\edawg\Documents\GitHub\Battleship\MyFirstProject\BattleShip\BattleShip\
 C:\Users\edawg\Documents\GitHub\Battleship\MyFirstProject\BattleShip\BattleShip\bin\Debug\BattleShip.exe
 C:\Users\edawg\Documents\GitHub\Battleship\MyFirstProject\BattleShip\BattleShip\bin\Debug\BattleShip.pdb
 C:\Users\edawg\Documents\GitHub\Battleship\MyFirstProject\BattleShip\BattleShip\bin\Debug\BattleShip.xml
-C:\Users\edawg\Documents\GitHub\Battleship\MyFirstProject\BattleShip\BattleShip\obj\Debug\BattleShip.vbprojResolveAssemblyReference.cache
 C:\Users\edawg\Documents\GitHub\Battleship\MyFirstProject\BattleShip\BattleShip\obj\Debug\BattleShip.AboutBoxBattleship.resources
 C:\Users\edawg\Documents\GitHub\Battleship\MyFirstProject\BattleShip\BattleShip\obj\Debug\BattleShip.BattleshipSplash.resources
 C:\Users\edawg\Documents\GitHub\Battleship\MyFirstProject\BattleShip\BattleShip\obj\Debug\BattleShip.compBoard.resources
@@ -107,3 +106,4 @@ C:\Users\edawg\Documents\GitHub\Battleship\MyFirstProject\BattleShip\BattleShip\
 C:\Users\edawg\Documents\GitHub\Battleship\MyFirstProject\BattleShip\BattleShip\obj\Debug\BattleShip.exe
 C:\Users\edawg\Documents\GitHub\Battleship\MyFirstProject\BattleShip\BattleShip\obj\Debug\BattleShip.xml
 C:\Users\edawg\Documents\GitHub\Battleship\MyFirstProject\BattleShip\BattleShip\obj\Debug\BattleShip.pdb
+C:\Users\edawg\Documents\GitHub\Battleship\MyFirstProject\BattleShip\BattleShip\obj\Debug\BattleShip.vbprojAssemblyReference.cache
